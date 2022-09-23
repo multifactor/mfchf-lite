@@ -1,0 +1,25 @@
+{
+  "name": "mfchf-lite",
+  "version": "1.0.0",
+  "description": "Lightweight demo of a Multi-Factor Credential Hashing Function (MFCHF)",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/multifactor/mfchf-lite.git"
+  },
+  "author": "Vivek Nair <vivek@nair.me> (https://nair.me)",
+  "license": "UNLICENSED",
+  "bugs": {
+    "url": "https://github.com/multifactor/mfchf-lite/issues"
+  },
+  "homepage": "https://github.com/multifactor/mfchf-lite#readme",
+  "dependencies": {
+    "argon2-browser": "^1.18.0",
+    "buffer-xor": "^2.0.2",
+    "random-number-csprng": "^1.0.2",
+    "speakeasy": "^2.0.0"
+  }
+}
